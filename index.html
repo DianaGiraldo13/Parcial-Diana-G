@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+</head>
+<body>
+    <h1>Juli Marketing</h1>
+    <h2>Pregunta actual</h2>
+    <div id= divpregunta></div>
+    <p>Escriba aqui la pregunta actual del focus group</p>
+    <input id= "inputpregunta" type="text">
+    <button id="boton">Ok</button>
+    <h2>Historico</h2>
+    <div id="divhistorico"></div>
+    
+</body>
+</html>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDm0Nysx65E4lehCDtcLLMcSH-r17dtwoY",
+    authDomain: "parcialdianag.firebaseapp.com",
+    databaseURL: "https://parcialdianag.firebaseio.com",
+    projectId: "parcialdianag",
+    storageBucket: "parcialdianag.appspot.com",
+    messagingSenderId: "1017493743841",
+    appId: "1:1017493743841:web:394658ea33eb419f732fa0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src = "index.js"></script>
+<script src="Pregunta.js"></script>
